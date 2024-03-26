@@ -1,0 +1,24 @@
+#meet {
+    width: 96%;
+    margin: 10px;
+    background-color: aquamarine;
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+}
+#info {
+    border: 5px solid black;
+    width: 96%;
+    margin: 10px;
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+#language {
+    border: 5px solid black;
+    width: 96%;
+    margin: 10px;
+    background-color: rgb(252, 252, 251);
+    padding: 20px;
+    text-align: center;
+}

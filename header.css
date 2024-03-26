@@ -1,0 +1,13 @@
+header {
+    width: 96%;
+    padding: 20px;
+    border: 5px solid red;
+    margin: 10px;
+}
+header h1 {
+    text-align: center;
+}
+header h1 a {
+    text-decoration-line: none;
+    color: rgba(233, 4, 4, 0.39);
+}
