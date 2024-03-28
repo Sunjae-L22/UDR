@@ -32,16 +32,20 @@ let grade_to_score = (grade) => {
     }
 }
 
-const readline = require("linebyline");
+const readline = require('readline');
+
 const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-  
+  input: process.stdin,
+  output: process.stdout
+});
+
 
 for (i = 0; i < 20; i++) {
-    var stu_grade = rl.question("What is yout grade?", (answer) => {
-        console.log(`Then your score is ${grade_to_score(stu_grade)}!`);
+    rl.question('Please enter a value: ', (answer) => {
+        // answer 변수에 사용자 입력값이 저장됩니다.
+        
+        // 여기서부터는 입력값에 대한 처리를 진행할 수 있습니다.
+        console.log(`your score is ${grade_to_score(answer)}`);
         rl.close();
-    })
+      });
 }
